@@ -73,3 +73,17 @@ export const ErrorContainer = styled.div`
     width: 500px;
   }
 `;
+
+export const CheckWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  margin: 25px auto;
+  border-radius: 7px;
+`;
+export const Checkbox = styled.input`
+  border-radius: 7px;
+  border: 1px solid #6b6b6b;
+  margin-right: 20px;
+  padding: 5rem;
+  font-size: 18px;
+`;
