@@ -87,7 +87,7 @@ const UserForm = () => {
     if (nameValid === null && emailValid === null && passwordValid === null) {
       setButton(false);
     }
-  });
+  }, [nameValid, emailValid, passwordValid]);
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
