@@ -2,7 +2,9 @@ This is a Tray.io take home test for senior frontend developer which creates a w
 
 ## Installation
 
-`git clone https://github.com/akenzua/tray.git`
+`git clone https://github.com/akenzua/tray.io.git`
+
+`cd tray.io`
 
 `npm install`
 
