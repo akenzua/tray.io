@@ -45,7 +45,7 @@ const PrivacyChecks = () => {
     if (info.email !== "") {
       setButton(false);
     }
-  });
+  }, []);
 
   return (
     <Form onSubmit={handleSubmit}>
